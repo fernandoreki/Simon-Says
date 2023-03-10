@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+
+.simon {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.light {
+    background-color: rgb(230, 248, 248) !important
+}
+
+.hide {
+    display: none !important
+}
+
+body {
+    font-family: 'Overlock SC', cursive;
+    height: 100%;
+    background-color: #83b5ee
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+button.principal {
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    border-radius: 12px;
+}
+
+#green {
+    background-color: #265e0d;
+    border: 1px solid thistle;
+    border-radius: 12px;
+    padding: 100px;
+    margin: 5px;
+}
+
+#blue {
+    background-color: #0b3c73;
+    border: 1px solid thistle;
+    border-radius: 12px;
+    padding: 100px;
+    margin: 5px;
+}
+
+#red {
+    background-color: #940c0c;
+    border: 1px solid thistle;
+    border-radius: 12px;
+    padding: 100px;
+    margin: 5px;
+}
+
+#yellow {
+    background-color: #8a8c11;
+    border: 1px solid thistle;
+    border-radius: 12px;
+    padding: 100px;
+    margin: 5px;
+}
+
+.summary {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.level {
+    float: left;
+    padding: 10px;
+}
+
+.best {
+    float: left;
+}
+
+.best, .level {
+    padding: 10px;
+    font-size: larger;
+}
